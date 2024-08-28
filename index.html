@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Encriptador de texto</title>
+</head>
+ <body>
+    <header class="header">
+        <h1 class="header__logo">FN</h1>
+        <h2  id="titulo" class="header__titulo">Escriptador de texto</h2>
+    </header>
+    <main class="principal">
+        <section class="principal__section_epcritador">
+         <div class="principal__section__textarea">   
+          <textarea id="texto" class="texto" type="text" placeholder="Ingresa el texto aquí" rows="10"></textarea>
+         </div>
+         <div class="principal__section__p">
+          <p>Solo letras minúsculas y sin acentos</p>
+         </div>
+         <div class="principal__section__botones">
+          <button class="principal__section__button" type="button" id='btnEncriptar'>Encriptar</button>
+          <button class="principal__section__button"type="button" id="btnDesepcritar">Desencriptar</button>
+         </div> 
+        </section>
+        <section class="segunda__section">
+          <div class="segunda__section__primerdiv" >
+            <img  class="principal__div__imagen" src="imagenes/ningun mensaje fue encontrado.jfif" alt="mensaje no encontrado">
+            <p class="pricipal__div__p">Ningun mensaje fue encontrado</p>
+         </div>
+         <div class="segunda__section__segundodiv">
+           <textarea type="text"  class="evaluar" readonly  rows="10"></textarea>
+           <button type="button" class="botonCopiar">Copiar</button>       
+         </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Desarrollado  by Fernando Navas|proyecto alura latam| <img class="footer__img" src="imagenes/github.png">fernando JNavas</p>
+    </footer>
+    <script src="app.js"></script>
+ </body>
+</html>
